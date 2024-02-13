@@ -136,6 +136,11 @@
         display:none;
       
       }
+ .bottom{
+        display:block;
+        justify-content: space-between;
+        
+    }
 
 }
 @media (width<=360px){
@@ -160,7 +165,12 @@
 width:130px;
 margin-right: 20px;
     }
-
+ #displayArea{
+        font-size: 20px;
+    }
+    #randomNumber{
+        font-size:20px;
+    }
 }
     
   
