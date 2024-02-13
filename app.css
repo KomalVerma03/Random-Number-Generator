@@ -1,6 +1,4 @@
-
- 
-    h2{
+ h2{
         text-align:center;
         font-family:"Lucida Handwriting","Cursive";
         color:#800080;
@@ -96,42 +94,82 @@
         display:flex;
         justify-content: space-between;
     }
-    @media (height<=1087px){
-        .body {
-            height:2200px;
-             }
-    }
     
-    @media (width<=1594px){
+    @media (width<=1071px){
         .body {
-            background-color:#E6E6FA;
-            border:none;
-            width:1290px;
-            margin:none;
-          }
-          .devpic{
-            margin-right: 500px;
-          }
-          .input button{
-            margin-top:5px;
-          }
-          /*#randomNumber{
-            margin-right: 400px;
-          }*/
-          .bottom{
-            display:block;
-            justify-content: space-between;
-        }
-          
+            
+            width:1000px;
+             }
+        .main{
+            width:990px;
+    }
+    .semicircle{
+        margin-left: 330px;
+    }
+    .input button{
+        margin-top:5px;
+      }
+
+}
+
+
+@media (width<=550px){
+    .body{
+    height:2000px;
+    }
+}
+@media (width<=430px){
+    .body{
+    border:none;
+    margin:none;
+    width:100%;
+
+    }
+    .main{
+        width:360px;
+        margin-left:30px;
+    }
+    .semicircle{
+        margin-left:30px;
+    }
+    .devpic{
+        display:none;
+      
+      }
+
+}
+@media (width<=360px){
+    .body{
+    border:none;
+    margin:none;
+    width:100%;
+
+    }
+    .main{
+        width:250px;
+        margin-left:10px;
+    }
+    .semicircle{
+        margin-left:10px;
+        width:250px;
+    }
+    .devpic{
+        display:none;
+       }
+    #num{
+width:130px;
+margin-right: 20px;
     }
 
-    @media(width<=1588px){
-        .main{
-        margin-left:380px;
-          width:500px;
-          
-          
-        }
-    }
+}
+    
+  
+    
+
+   
+ 
+ 
+   
+     
 
    
