@@ -5,7 +5,7 @@ function displayData(){
     document.getElementById("displayArea").innerHTML=displayContent;
 
 
-const randomNumber = Math.floor(Math.random() * 10) + 1;//code to generate random number 
+const randomNumber = Math.floor(Math.random()*10) + 1;//code to generate random number 
 
 
 const randomNumberElement = document.getElementById("randomNumber");
